@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/04/16 09:14:35.000.185,=C:\Users\Igor\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/04/16 09:15:02.000.528,C:\Users\Igor\Documents\Embarcadero\Studio\Projects\Unit1.fmx=\\VBOXSVR\Shared\Delphi\GPS - Android\fMainU.fmx</Transaction>
+    <Transaction>2021/04/16 09:15:02.000.528,C:\Users\Igor\Documents\Embarcadero\Studio\Projects\Unit1.pas=\\VBOXSVR\Shared\Delphi\GPS - Android\fMainU.pas</Transaction>
+    <Transaction>2021/04/16 09:15:11.000.481,C:\Users\Igor\Documents\Embarcadero\Studio\Projects\Project1.dproj=\\VBOXSVR\Shared\Delphi\GPS - Android\GPS_Project.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

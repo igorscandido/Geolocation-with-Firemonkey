@@ -1,0 +1,169 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 438
+  ClientWidth = 668
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object lbMenu: TListBox
+    Align = Left
+    Size.Width = 200.000000000000000000
+    Size.Height = 438.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    DisableFocusEffect = True
+    DefaultItemStyles.ItemStyle = ''
+    DefaultItemStyles.GroupHeaderStyle = ''
+    DefaultItemStyles.GroupFooterStyle = ''
+    Viewport.Width = 196.000000000000000000
+    Viewport.Height = 394.000000000000000000
+    object ListBoxGroupHeader1: TListBoxGroupHeader
+      TabOrder = 0
+      Text = 'Localiza'#231#227'o Atual'
+    end
+    object ListBoxItemLatitude: TListBoxItem
+      Position.Y = 19.000000000000000000
+      Size.Width = 196.000000000000000000
+      Size.Height = 30.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'listboxitemleftdetail'
+      TabOrder = 1
+      Text = 'Latitude'
+    end
+    object ListBoxItemLongitude: TListBoxItem
+      Position.Y = 49.000000000000000000
+      Size.Width = 196.000000000000000000
+      Size.Height = 30.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'listboxitemleftdetail'
+      TabOrder = 2
+      Text = 'Longitude'
+    end
+    object ListBoxGroupHeader2: TListBoxGroupHeader
+      Position.Y = 79.000000000000000000
+      TabOrder = 3
+      Text = 'Endere'#231'o Atual'
+    end
+    object ListBoxItemAdminArea: TListBoxItem
+      Position.Y = 98.000000000000000000
+      Size.Width = 196.000000000000000000
+      Size.Height = 30.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'listboxitemleftdetail'
+      TabOrder = 12
+      Text = 'Admin Area'
+    end
+    object ListBoxItemPaisCod: TListBoxItem
+      Position.Y = 128.000000000000000000
+      Size.Width = 196.000000000000000000
+      Size.Height = 30.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'listboxitemleftdetail'
+      TabOrder = 11
+      Text = 'C'#243'digo Pais'
+    end
+    object ListBoxItemPais: TListBoxItem
+      Position.Y = 158.000000000000000000
+      Size.Width = 196.000000000000000000
+      Size.Height = 30.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'listboxitemleftdetail'
+      TabOrder = 10
+      Text = 'Pais'
+    end
+    object ListBoxItemCaracteristica: TListBoxItem
+      Position.Y = 188.000000000000000000
+      Size.Width = 196.000000000000000000
+      Size.Height = 30.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'listboxitemleftdetail'
+      TabOrder = 9
+      Text = 'Caracter'#237'stica'
+    end
+    object ListBoxItemLocalidade: TListBoxItem
+      Position.Y = 218.000000000000000000
+      Size.Width = 196.000000000000000000
+      Size.Height = 30.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'listboxitemleftdetail'
+      TabOrder = 8
+      Text = 'Localidade'
+    end
+    object ListBoxItemSubAdminArea: TListBoxItem
+      Position.Y = 248.000000000000000000
+      Size.Width = 196.000000000000000000
+      Size.Height = 30.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'listboxitemleftdetail'
+      TabOrder = 7
+      Text = 'S.A Area'
+    end
+    object ListBoxItemSubLocalidade: TListBoxItem
+      Position.Y = 278.000000000000000000
+      Size.Width = 196.000000000000000000
+      Size.Height = 30.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'listboxitemleftdetail'
+      TabOrder = 6
+      Text = 'S. Localidade'
+    end
+    object ListBoxItemSubLogradouro: TListBoxItem
+      Position.Y = 308.000000000000000000
+      Size.Width = 196.000000000000000000
+      Size.Height = 30.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'listboxitemleftdetail'
+      TabOrder = 5
+      Text = 'S. Logradouro'
+    end
+    object ListBoxItemLogradouro: TListBoxItem
+      Position.Y = 338.000000000000000000
+      Size.Width = 196.000000000000000000
+      Size.Height = 30.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'listboxitemleftdetail'
+      TabOrder = 4
+      Text = 'Logradouro'
+    end
+    object ListBoxHeader1: TListBoxHeader
+      Size.Width = 196.000000000000000000
+      Size.Height = 40.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      object Label1: TLabel
+        Align = VertCenter
+        StyledSettings = [Family, FontColor]
+        Position.Y = 11.000000000000000000
+        Size.Width = 104.000000000000000000
+        Size.Height = 17.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 20.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        Text = 'GPS'
+        TabOrder = 1
+      end
+      object swGPS: TSwitch
+        Align = FitRight
+        IsChecked = False
+        Position.X = 104.000000000000000000
+        Size.Width = 92.000000000000000000
+        Size.Height = 40.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 2
+      end
+    end
+  end
+  object wbMapa: TWebBrowser
+    Align = Client
+    Size.Width = 468.000000000000000000
+    Size.Height = 438.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object lsGPS: TLocationSensor
+    Left = 616
+    Top = 16
+  end
+end
